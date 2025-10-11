@@ -2,6 +2,8 @@
 
 **Hackathon:** Hack Days, Bhopal
 
+<img width="1470" height="831" alt="Screenshot 2025-10-11 at 4 07 11 PM" src="https://github.com/user-attachments/assets/fe04b8b0-05e0-43cb-a0a6-bff0323e950f" />
+
 **Live Demo:** [https://hack-day-madhavan.vercel.app/](https://hack-day-madhavan.vercel.app/)
 
 ---
@@ -27,6 +29,8 @@ In a world where health information is abundant yet often overwhelming, individu
 
 The app leverages **Google Gemini API** to understand and process user input, producing intelligent insights in real-time.
 
+<img width="1470" height="831" alt="Screenshot 2025-10-11 at 4 07 57 PM" src="https://github.com/user-attachments/assets/8962a369-b3a8-4450-a9e7-a064fce2df0b" />
+
 ---
 
 ## ⚙️ Implementation
@@ -51,6 +55,8 @@ This combination of AI intelligence, responsive design, and interactive elements
 3. **Medical Partnerships:** Collaborate with clinics or telehealth services to validate AI suggestions.
 4. **Localization:** Support multiple languages.
 5. **Enhanced Visualizations:** Add interactive charts and graphs for better understanding.
+
+<img width="1470" height="829" alt="Screenshot 2025-10-11 at 4 08 12 PM" src="https://github.com/user-attachments/assets/4afde916-4c25-4e97-a2be-75a1f2b5d462" />
 
 ---
 
