@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# MedGuide – AI Health Companion
 
-## Project info
+**Hackathon:** Hack Days, Bhopal
 
-**URL**: https://lovable.dev/projects/d8f92bb7-c498-4eae-a84d-579573b2f580
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+**MedGuide** is an AI-powered health companion designed to help users make informed decisions about their health. In today’s fast-paced world, many people ignore minor symptoms or rely on unreliable online information, which can lead to delayed diagnosis and worsening conditions. MedGuide bridges this gap by providing instant, intelligent insights powered by **Google Gemini API** and machine learning.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d8f92bb7-c498-4eae-a84d-579573b2f580) and start prompting.
+## Problem Statement
 
-Changes made via Lovable will be committed automatically to this repo.
+Millions of people experience symptoms like fever, headache, cough, or fatigue and are unsure whether to consult a doctor. Existing solutions are often generic, confusing, or require medical expertise. This results in self-medication, delayed diagnosis, and unnecessary health risks.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+MedGuide empowers users to:
 
-Follow these steps:
+- **Describe their symptoms naturally** in plain language.
+- Receive **AI-generated medical guidance**, including:
+  - A concise **summary** of their condition.
+  - **Probable causes** and risk levels.
+  - **Red flags** that indicate urgent attention.
+  - **Recommended actions** and preventive tips.
+- **Download a PDF report** summarizing the AI analysis for personal records or sharing with healthcare providers.
+- Enjoy a **modern, responsive, and interactive interface** with animated elements for a smooth user experience.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The app leverages **Google Gemini API** to understand and process user input, producing intelligent and reliable insights in real-time.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Implementation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+MedGuide is implemented as a **frontend-only web application** with the following features:
 
-**Edit a file directly in GitHub**
+- **Symptom Input:** Users can enter their health concerns in a text area.
+- **AI Analysis:** The app sends user input to the **Google Gemini API**, which generates structured responses including summary, probable causes, red flags, and recommended actions.
+- **Interactive Cards:** Results are displayed in color-coded cards to easily visualize severity and urgency.
+- **Animations:** Smooth 2D transitions enhance the user experience, making interactions engaging and intuitive.
+- **PDF Reports:** Users can download AI-generated reports as PDFs for offline access or sharing.
+- **UI/UX:** Light blue and light green theme with responsive design ensures accessibility and a professional look.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The combination of AI intelligence, responsive design, and interactive elements ensures a **hackathon-ready experience** with maximum social impact and user engagement.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Future Plans
 
-## What technologies are used for this project?
+To further improve MedGuide:
 
-This project is built with:
+1. **Mobile Application:** Extend the web app to iOS and Android for wider accessibility.
+2. **Expanded AI Capabilities:** Incorporate more advanced ML models for risk prediction and personalized recommendations.
+3. **Medical Partnerships:** Collaborate with clinics or telehealth services to validate AI suggestions.
+4. **Localization:** Support multiple languages to reach non-English speaking users.
+5. **Enhanced Visualizations:** Add more animations, charts, and interactive graphs to help users understand their health better.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Social Impact
 
-Simply open [Lovable](https://lovable.dev/projects/d8f92bb7-c498-4eae-a84d-579573b2f580) and click on Share -> Publish.
+MedGuide aims to empower people with **quick, reliable, and accessible health insights**, reducing unnecessary medical visits and improving early detection of potential health risks. By combining AI intelligence with user-friendly design, MedGuide transforms how everyday users approach their health, creating a meaningful social impact.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Innovation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- First frontend-only solution integrating **Google Gemini API** for symptom analysis.
+- Interactive and animated UI that enhances engagement and understanding.
+- Real-time PDF generation allows users to maintain personal health records.
+- Focus on accessibility, intuitive navigation, and modern UI/UX design to maximize adoption.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Tagline
+
+**MedGuide – Your AI Health Companion**
