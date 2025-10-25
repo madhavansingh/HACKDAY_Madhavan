@@ -70,7 +70,7 @@ MedGuide empowers people with **quick, reliable, and accessible health insights*
 
 - Frontend-only solution integrating **Google Gemini API** for symptom analysis.
 - Interactive and animated UI that enhances engagement.
-- Real-time PDF generation for personal health records.
+- Real time PDF generation for personal health records.
 - Focus on accessibility, intuitive navigation, and modern UI/UX.
 
 ---
